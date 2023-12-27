@@ -1,0 +1,207 @@
+
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    background-color: #f66969;
+    background-image:  url(img/desktop-wallpaper-retro-city-sunset-digital-art-background-c6637f-sunset-digital\ \(1\).jpg);
+    background-size: contain;
+    
+}
+
+.container {
+    align-items: center;
+    border: 1px solid black;
+    width: 800px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content:center;
+    background: #CF0CC9;
+background: linear-gradient(to bottom, #CF0CC9 11%, #FF0A0A 35%, #FFFF12 58%, #FF0800 81%, #CF08A1 90%);
+
+    padding: 10px  ;
+    border-radius: 15px; 
+    box-shadow: 10px 5px rgba(0, 0, 0, 0.583);
+    
+}
+
+.row{
+    display:table-row;
+}
+
+.div {
+    display: table-cell;
+    width: var(--length);
+    height: var(--length);
+    background-color: white;
+    border: 1px solid black;  
+    cursor: pointer; 
+}
+
+
+.title{
+    text-align: center;
+    margin: 7px;
+    background: #FF0000;
+    background: linear-gradient(to top, #FF0000 18%, #ffff00 45%, #FF0000 66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Chakra Petch', sans-serif;
+    border-color: black;
+   
+}
+
+.sqrt{
+    display: table;
+    width: 700px;
+    height: 600px;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.divBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 15px auto;
+}
+
+.colour {
+    
+  background: red; 
+  background: -webkit-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -o-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: -moz-linear-gradient(left,red,orange,yellow,green,blue,indigo,violet);
+  background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  color: black;
+  font-size: 16px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.583);
+  font-family: 'Chakra Petch', sans-serif;
+  cursor: pointer;
+}
+
+.black {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.583);
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+}
+
+.delete {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.583);
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+}
+
+.reset {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.583);
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+}
+
+.quanty {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bolder;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 2px 4px rgba(0, 0, 0, 0.583);
+    margin: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+}
+
+.quanty:hover{
+    padding: 4px 9px;
+    background-color: rgb(223, 216, 216);
+    font-size: 17px;
+    color: white;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.974);
+}
+
+.reset:hover{
+    padding: 4px 9px;
+    background-color: red;
+    font-size: 17px;
+    color: white;
+}
+
+.delete:hover{
+    padding: 4px 9px;
+    background-color: rgb(223, 216, 216);
+    font-size: 17px;
+    color: white;
+}
+
+.black:hover{
+    background-color: white;
+    color: black;
+    font-size: 17px;
+    padding: 4px 9px;
+}
+
+.colour:hover{
+    color: white;
+    font-size: 17px;
+    padding: 4px 9px;
+    background: red; 
+    background: -webkit-linear-gradient(left,violet,indigo,blue,green,yellow,orange,red);
+    background: -o-linear-gradient(left,violet,indigo,blue,green,yellow,orange,red);
+    background: -moz-linear-gradient(left,violet,indigo,blue,green,yellow,orange,red);
+    background: linear-gradient(to right,violet,indigo,blue,green,yellow,orange,red);
+    
+}
+
+.div:hover{
+    padding: 0.05px;
+    background: #F6F8F9;
+    background: radial-gradient(circle farthest-corner at center center, #F6F8F9 0%, #E5EBEE 30%, #D7DEE3 60%, #F5F7F9 100%);
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.583);
+}
